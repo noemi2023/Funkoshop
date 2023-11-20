@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset = "UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/reg.css">
+</head>
+<body>
+    <form action="/login" method= "post" class = "form-registro">
+        <h3>INGRESAR A MI CUENTA</h3>
+        <div class ="contenedor-input">
+            <input type = "text" name = "user" placeholder = "Usuario" class = "input-100" required>
+            <input type = "text" name = "pwd" placeholder = "Contraseña" class = "input-100" required>
+        </div>
+        <div class="text-align-center">
+        <label for="check">Recordarme</label>
+        <input type="checkbox" id="check"/>
+        </div>    
+        <div class="text-align-center">
+            <label for="nueva-contraseña"><a href="https://www.funkoshop.com/nuevaContraseña/">¿Olvidó su contraseña?</a>
+            </div>
+        <div class="boton">
+            <input type = "submit" value = "INGRESAR" class = "btn-enviar">
+
+        </div>      
+    </form>
+</body>
+</html>
+
+<style type="text/css">
+
+body{
+    font: normal 18px/3 "Fira Sans", "Heveltica Neue", sans-serif;
+    background: #FFFFFF;
+    color: rgb(27, 24, 24);
+    margin: 0;
+}
+
+ h3{
+    text-align: center;
+}
+
+.form-registro{
+    width: 95%;
+    max-width: 400px;
+    margin: auto;
+    background:rgb(233, 226, 226);
+    border-radius: 7px;
+    padding-top: 10px;
+}
+
+h2{
+
+    background: rgb(172, 186, 189);
+    text-align: center;
+    padding: 15px;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 4px solid rgb(226, 203, 209);
+}
+
+.contenedor-input{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(185, 176, 176);
+}
+
+.input-48{
+    width: 48%;
+}
+
+.input-100{
+    width: 100%;
+    margin-bottom : 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(133, 108, 108);
+}
+
+.text-align-center{
+    text-align: center;
+    vertical-align: middle;
+}
+.checkbox{
+    text-align:center
+}
+.boton{
+    display:flex;
+    padding-bottom: 15px;
+    justify-content:center
+}
+
+.btn-enviar{
+    text-align:center;
+    background: rgb(153, 20, 46);
+    color: white;
+    margin: auto;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.btn-enviar:active
+{
+    transform: scale(1.05);
+}
+</style>
+

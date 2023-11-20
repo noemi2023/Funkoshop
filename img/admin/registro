@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+        <meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="with-device-width, initial-scale=1.0" />
+        <title>Home | Funkoshop</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+    <header></header>
+    <body>
+        <main>
+            <article class="form-container">            
+<form action="">
+      <h2>CREA TU CUENTA</h2>
+      <div class="funko-form">
+        <label for="name">Nombre</label>
+        <input type="name" id="name" placeholder="Introduce tu nombre" required />
+      </div>
+      <div class="funko-form">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Introduce tu Email" required/>
+      </div>
+
+      <div class="funko-form">
+        <label for="password">Contraseña</label>
+        <input type="password" id="" placeholder="Introduce contraseña" required/>
+      </div>
+      <div class="funko-form">
+        <label for="password">Repetir Contraseña</label>
+        <input type="password" id="" placeholder="Repetir contraseña" required/>
+      </div>
+      <input type="submit" value="Enviar" class="submit-btn" />
+</form> 
+</article>
+</main>
+</body>
+<footer></footer>
+
+</html>
+
+        </main>
